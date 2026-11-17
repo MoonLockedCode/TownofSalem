@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Rulebook and Role List</title>
+</head>
+<body>
+
+    <!-- SINGLE SECTION FOR THE ENTIRE RULEBOOK AND ROLE LIST -->
+    <section id="complete-rulebook-and-roles">
+        
+        <h1>OFFICIAL RULEBOOK & ROLE LIST</h1>
+
+        <pre style="white-space: pre-wrap; font-family: inherit;">
+==================================================
+SECTION 1: GAME RULES
+==================================================
+
+Overview
+
+Murder at Town Square is a social deduction card game where players take on secret roles in a town filled with hidden criminals, investigators, and citizens. Players must use deduction, teamwork, and deception to discover who is responsible for the murders before it is too late.
+
+Each player receives a secret role with a unique ability and goal. Some players work together, while others must hide their true identity.
+
+Objective
+
+Each faction has a different objective.
+
+Town
+
+Find and eliminate all threats to the town.
+
+Mafia
+
+Secretly eliminate the town and take control of Town Square.
+
+Neutral Roles
+
+Complete their own personal victory condition.
+
+Setup
+Choose one player to be the Moderator.
+Select the roles that will be used.
+Shuffle the role cards.
+Give one role card to each player.
+Players secretly look at their role.
+The Moderator begins the first Night.
+Game Flow
+
+Each round follows this order:
+
+Night Phase
+Morning Announcement
+Discussion Phase
+Voting Phase
+Trial Phase
+Execution (if voted guilty)
+New Night Phase
+Night Phase
+
+During the Night:
+
+Players close their eyes.
+The Moderator calls roles in order.
+Active roles perform their abilities.
+Players silently choose targets.
+The Moderator resolves all actions.
+Morning Announcement
+
+The Moderator announces what happened during the Night.
+
+If a player died:
+
+Their role is revealed.
+Their card is placed in the Graveyard.
+Any allowed information is announced.
+Discussion Phase
+
+Players discuss what happened.
+
+Players may:
+
+Share information.
+Accuse other players.
+Defend themselves.
+Lie about their role.
+
+Players are encouraged to use strategy and deduction.
+
+Voting Phase
+
+Players may nominate someone they believe is guilty.
+
+If enough players vote to put someone on trial, the Trial Phase begins.
+
+Trial Phase
+
+The accused player gets a chance to defend themselves.
+
+After the defense:
+
+Players vote Guilty or Innocent.
+A Guilty majority results in execution.
+An Innocent majority allows the player to survive.
+Death Rules
+
+When a player dies:
+
+Their role is revealed.
+They may no longer vote.
+They may not use abilities unless their role allows it.
+They must follow the game's dead player rules.
+Winning
+
+The game ends when a faction completes its objective.
+
+The winning faction is determined by the victory conditions of the remaining players.
+
+==================================================
+Town Roles
+
+Town players work together to find and eliminate all threats. Town wins when all Mafia, Coven, and other enemies of the Town are eliminated.
+
+Citizen
+
+Faction: Town
+Role Type: None
+
+Night Ability
+The Citizen has no Night ability.
+The Citizen sleeps every Night.
+Day Ability
+May discuss, accuse players, and vote during trials.
+Passive Abilities
+None.
+Goal
+
+Help the Town eliminate all enemies.
+
+Investigator
+
+Faction: Town
+Role Type: Investigative
+
+Night Ability
+Each Night, choose one living player to investigate.
+The Investigator learns that player's exact role.
+Uses
+The Investigator has 2 investigations for the entire game.
+After using both investigations, the Investigator has no more Night actions.
+Day Ability
+May share investigation results with the Town.
+May keep information secret.
+Passive Abilities
+Investigation results are always accurate.
+The Investigator does not learn if a player changed their appearance through disguises unless the rules specifically allow it.
+Goal
+
+Find dangerous roles and help the Town remove them.
+
+Sheriff
+
+Faction: Town
+Role Type: Investigative
+
+Night Ability
+Each Night, choose one living player to investigate.
+The Sheriff learns that player's alignment.
+
+The result will be one of three:
+
+Good
+
+The player is working with the Town.
+
+Bad
+
+The player is a threat to the Town, such as Mafia or Coven.
+
+Neutral
+
+The player has their own win condition and is not part of the Town or a normal enemy faction.
+Day Ability
+May reveal investigation results.
+May accuse players based on evidence.
+Passive Abilities
+The Sheriff does not learn a player's exact role.
+The Sheriff only learns their alignment.
+Goal
+
+Find Bad players and protect the Town.
+
+Doctor
+
+Faction: Town
+Role Type: Protective
+
+Night Ability
+Each Night, choose one living player to heal.
+If that player would be killed during the Night, the death is prevented.
+Day Ability
+May discuss and vote normally.
+Passive Abilities
+The Doctor does not know if their heal worked.
+The Doctor cannot revive dead players.
+Goal
+
+Keep Town members alive until all enemies are eliminated.
+
+Bodyguard
+
+Faction: Town
+Role Type: Protective
+
+Night Ability
+Each Night, choose one living player to guard.
+
+If that player is attacked:
+
+The Bodyguard fights the attacker.
+The attacker is eliminated.
+The Bodyguard is also eliminated.
+Day Ability
+May discuss and vote normally.
+Passive Abilities
+The Bodyguard protects only the chosen player.
+The Bodyguard does not know who attacked their target.
+Goal
+
+Protect important Town members.
+
+Vigilante
+
+Faction: Town
+Role Type: Killing
+
+Night Ability
+Each Night, the Vigilante may choose one player to shoot.
+The chosen player is eliminated if the attack succeeds.
+Uses
+The Vigilante has a limited number of bullets.
+Day Ability
+May discuss and vote normally.
+Passive Abilities
+The Vigilante can accidentally eliminate Town members.
+The Vigilante must choose targets carefully.
+Goal
+
+Eliminate threats to the Town.
+
+Veteran
+
+Faction: Town
+Role Type: Killing / Defensive
+
+Night Ability
+The Veteran may choose to go on Alert.
+While on Alert, anyone who visits the Veteran is eliminated.
+Uses
+The Veteran has a limited number of Alerts.
+Day Ability
+May discuss and vote normally.
+Passive Abilities
+The Veteran cannot be safely visited while on Alert.
+The Veteran does not choose who gets attacked.
+Goal
+
+Protect the Town by eliminating attackers.
+
+Mayor
+
+Faction: Town
+Role Type: Leadership
+
+Night Ability
+The Mayor has no Night ability.
+Day Ability
+The Mayor may reveal themselves during the Day.
+After revealing, their vote becomes stronger.
+Passive Abilities
+Once revealed, everyone knows the Mayor's identity.
+The Mayor becomes a major voting power for the Town.
+Goal
+
+Lead the Town to victory.
+
+Medium
+
+Faction: Town
+Role Type: Information
+
+Night Ability
+The Medium may communicate with eliminated players.
+Dead players may provide information to the Medium.
+Day Ability
+May share information learned from dead players.
+Passive Abilities
+The Medium cannot bring dead players back.
+The Medium cannot force dead players to tell the truth.
+Goal
+
+Use information from eliminated players to help the Town.
+
+Tracker
+
+Faction: Town
+Role Type: Investigative
+
+Night Ability
+Choose one player.
+Learn who that player visited during the Night.
+Day Ability
+May share tracking information.
+Passive Abilities
+The Tracker sees movement, not exact actions.
+Goal
+
+Find suspicious activity and identify enemies.
+
+Lookout
+
+Faction: Town
+Role Type: Investigative
+
+Night Ability
+Choose one player.
+Learn who visited that player during the Night.
+Day Ability
+May reveal visitor information.
+Passive Abilities
+The Lookout does not know what visitors did.
+Only learns who visited.
+Goal
+
+Discover criminals through their actions.
+
+Psychic
+
+Faction: Town
+Role Type: Investigative
+
+Night Ability
+Receives information about possible players involved in evil actions.
+Day Ability
+May share visions with the Town.
+Passive Abilities
+Information may not identify the exact enemy.
+Goal
+
+Help the Town discover hidden threats.
+
+Transporter
+
+Faction: Town
+Role Type: Support
+
+Night Ability
+Choose two players.
+Swap their positions.
+
+Example:
+
+Player A is attacked.
+Player B was transported with Player A.
+The attack affects Player B instead.
+Day Ability
+May discuss and vote normally.
+Passive Abilities
+The Transporter does not know what actions are redirected.
+Goal
+
+Protect allies and confuse enemies.
+
+Jailor
+
+Faction: Town
+Role Type: Control / Killing
+
+Night Ability
+During the Day, choose one player to jail.
+At Night, the jailed player cannot act.
+The Jailor may choose to execute the jailed player.
+Uses
+Limited executions.
+Day Ability
+Selects who will be jailed.
+Passive Abilities
+A jailed player cannot use Night abilities.
+The Jailor controls the jail conversation.
+Goal
+
+Remove threats while protecting the Town.
+Mafia Roles
+
+The Mafia is a secret criminal organization working together to eliminate the Town and other enemies. Mafia members know each other and coordinate their actions at Night.
+
+The Mafia wins when they control the Town Square by eliminating enough opposing players.
+
+Mafia Member
+
+Faction: Mafia
+Role Type: Killing / Basic Mafia
+
+Night Ability
+Each Night, the Mafia chooses one living player to attack.
+The chosen player is eliminated unless protected or otherwise saved.
+Day Ability
+Pretend to be a normal Town member.
+Discuss, accuse, and vote to mislead the Town.
+Passive Abilities
+Knows the identity of other Mafia members.
+Works with the Mafia team.
+Goal
+
+Eliminate the Town and all opposing factions.
+
+Godfather
+
+Faction: Mafia
+Role Type: Mafia Leader
+
+Night Ability
+Each Night, choose the Mafia's target to eliminate.
+If the Godfather does not choose a target, another Mafia member may perform the attack.
+Day Ability
+Lead discussions and manipulate votes.
+Passive Abilities
+Appears Good to the Sheriff.
+Leads the Mafia.
+Cannot be easily identified by investigations.
+Goal
+
+Lead the Mafia to victory.
+
+Mafioso
+
+Faction: Mafia
+Role Type: Mafia Killer
+
+Night Ability
+Performs the Mafia's attack when ordered.
+If the Godfather is alive, follows the Godfather's orders.
+If the Godfather dies, the Mafioso takes over the Mafia attack.
+Day Ability
+Pretends to be a Town member.
+Passive Abilities
+Becomes the new Godfather if the original Godfather dies.
+Goal
+
+Help the Mafia eliminate all enemies.
+
+Blackmailer
+
+Faction: Mafia
+Role Type: Information / Control
+
+Night Ability
+Choose one player to blackmail.
+
+The blackmailed player:
+
+Cannot reveal information during the Day.
+Cannot speak during trials.
+Cannot tell the Town their role or results.
+Day Ability
+The blackmailed player must remain silent according to the rules.
+Passive Abilities
+Knows who they blackmailed.
+Goal
+
+Prevent the Town from sharing information.
+
+Consigliere
+
+Faction: Mafia
+Role Type: Investigative
+
+Night Ability
+Choose one player to investigate.
+Learn their exact role.
+Uses
+2 investigations per game.
+Day Ability
+Give useful information to the Mafia.
+Help choose important targets.
+Passive Abilities
+Investigation results are accurate.
+Goal
+
+Find important roles and help the Mafia eliminate them.
+
+Janitor
+
+Faction: Mafia
+Role Type: Deception
+
+Night Ability
+Choose one player to clean.
+
+If that player dies:
+
+Their role is hidden.
+The Town does not learn what role they had.
+Uses
+Limited number of cleans.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Helps hide Mafia kills.
+Goal
+
+Keep the Town from learning important information.
+
+Framer
+
+Faction: Mafia
+Role Type: Deception
+
+Night Ability
+Choose one player to frame.
+
+The framed player appears suspicious to investigations.
+
+Day Ability
+Accuse framed players to make them look guilty.
+Passive Abilities
+The effect lasts according to the game's investigation rules.
+Goal
+
+Make innocent players appear guilty.
+
+Disguiser
+
+Faction: Mafia
+Role Type: Deception
+
+Night Ability
+Choose another player.
+The Disguiser changes their appearance to match that player.
+Day Ability
+Pretend to be another role.
+Passive Abilities
+Investigations may see the disguised identity instead of the real role.
+Goal
+
+Hide the Mafia's identities.
+
+Forger
+
+Faction: Mafia
+Role Type: Deception
+
+Night Ability
+Choose a player.
+Create a fake Last Will for them.
+
+If that player dies:
+
+The fake information is shown instead of their real message.
+Uses
+Limited number of forgeries.
+Day Ability
+Use fake information to confuse the Town.
+Passive Abilities
+Can only affect players before they die.
+Goal
+
+Spread false information.
+
+Ambusher
+
+Faction: Mafia
+Role Type: Killing / Defensive
+
+Night Ability
+Choose one player to ambush.
+
+If another player visits that target:
+
+The visitor is attacked.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Protects Mafia targets by removing visitors.
+Goal
+
+Eliminate important Town roles.
+
+Hypnotist
+
+Faction: Mafia
+Role Type: Deception
+
+Night Ability
+Choose a player to hypnotize.
+Give them a fake message or false information.
+
+Examples:
+
+"You were attacked."
+"You were healed."
+"You saw someone visit."
+Day Ability
+The hypnotized player may unknowingly share false information.
+Passive Abilities
+Creates confusion without directly attacking.
+Goal
+
+Mislead the Town.
+
+Consort
+
+Faction: Mafia
+Role Type: Support / Role Blocking
+
+Night Ability
+Choose one player to distract.
+
+The target:
+
+Cannot use their Night ability.
+Day Ability
+Pretend to be a harmless role.
+Passive Abilities
+Stops important Town roles from acting.
+Goal
+
+Prevent the Town from using powerful abilities.
+Neutral Roles
+
+Neutral roles do not belong to the Town, Mafia, or Coven. They have their own personal goals and may help or hurt other factions depending on what benefits them.
+
+Survivor
+
+Faction: Neutral
+Role Type: Survival
+
+Night Ability
+Each Night, the Survivor may use a Vest.
+A Vest protects the Survivor from being eliminated that Night.
+Uses
+Limited number of Vests.
+Day Ability
+May discuss, accuse, and vote like any other player.
+Passive Abilities
+The Survivor has no team.
+Other players may choose to help or eliminate the Survivor.
+Goal
+
+Survive until the end of the game.
+
+Jester
+
+Faction: Neutral
+Role Type: Trickster
+
+Night Ability
+The Jester has no Night ability.
+Day Ability
+Attempts to convince the Town that they are suspicious.
+May lie about their role or actions.
+Passive Abilities
+Does not win by surviving.
+Must be eliminated by the Town.
+Goal
+
+Be voted guilty and executed by the Town.
+
+Executioner
+
+Faction: Neutral
+Role Type: Manipulation
+
+Night Ability
+Has no active Night ability.
+Setup Ability
+At the beginning of the game, the Executioner receives a target.
+Their target is a living player.
+Day Ability
+Must convince the Town to execute their target.
+Passive Abilities
+The Executioner loses their original goal if their target dies another way.
+Goal
+
+Get your assigned target executed by the Town.
+
+Serial Killer
+
+Faction: Neutral Evil
+Role Type: Killing
+
+Night Ability
+Each Night, choose one player to attack.
+That player is eliminated unless protected.
+Day Ability
+Pretend to be innocent.
+Avoid being discovered.
+Passive Abilities
+Works alone.
+Does not know Mafia or Coven plans.
+Goal
+
+Be the last player alive.
+
+Arsonist
+
+Faction: Neutral Evil
+Role Type: Killing
+
+Night Ability
+
+The Arsonist has two actions:
+
+Douse
+
+Choose one player.
+That player is covered in gasoline.
+
+Ignite
+
+Burn all players currently doused.
+All doused players are eliminated.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Can wait and attack multiple players at once.
+Goal
+
+Eliminate everyone else and survive.
+
+Werewolf
+
+Faction: Neutral Evil
+Role Type: Killing
+
+Night Ability
+
+On normal Nights:
+
+The Werewolf does not attack.
+
+On Full Moon Nights:
+
+Transform into a Werewolf.
+Attack a chosen player.
+Attack anyone who visits the target.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Becomes stronger during Full Moon Nights.
+Harder to stop while transformed.
+Goal
+
+Eliminate all other players.
+
+Witch
+
+Faction: Neutral
+Role Type: Control
+
+Night Ability
+Choose one player.
+Choose another player as their target.
+Force the first player to use their ability on the second player.
+
+Example:
+
+The Witch controls a Vigilante.
+The Witch forces the Vigilante to shoot someone.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Can control powerful roles against their own team.
+Goal
+
+Survive and complete the Witch's victory condition.
+
+Amnesiac
+
+Faction: Neutral
+Role Type: Role Changing
+
+Night Ability
+Choose a dead player's role.
+Remember that role.
+
+After remembering:
+
+The Amnesiac becomes that role.
+Gains that role's abilities and goal.
+Day Ability
+May hide their future plans.
+Passive Abilities
+Cannot remember a role that is not available.
+Goal
+
+Complete the goal of the role they remember.
+
+Vampire
+
+Faction: Vampire
+Role Type: Conversion
+
+Night Ability
+Choose one player to bite.
+That player becomes a Vampire.
+Rules
+Vampires work together.
+Converted players join the Vampire team.
+Day Ability
+Pretend to be other roles.
+Passive Abilities
+Vampires know their teammates.
+Goal
+
+Convert players and eliminate opposing factions.
+
+Guardian Angel
+
+Faction: Neutral
+Role Type: Protection
+
+Setup Ability
+At the beginning of the game, the Guardian Angel receives a target.
+Night Ability
+Protect the target from attacks.
+Day Ability
+Defend your target during discussion.
+Passive Abilities
+If your target survives, you succeed.
+Goal
+
+Keep your assigned player alive.
+
+Pirate
+
+Faction: Neutral
+Role Type: Duelist
+
+Night Ability
+Challenge one player to a duel.
+Both players secretly choose a move.
+The winner survives.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Works alone.
+Goal
+
+Win enough duels to complete the Pirate's objective.
+
+Plaguebearer
+
+Faction: Neutral Evil
+Role Type: Infection
+
+Night Ability
+Infect one player each Night.
+Passive Abilities
+Infected players spread the plague.
+Transformation
+
+When all living players are infected:
+
+The Plaguebearer becomes Pestilence.
+Goal
+
+Spread the plague and become powerful enough to win.
+
+Pestilence
+
+Faction: Neutral Evil
+Role Type: Killing
+
+Night Ability
+Attack one player each Night.
+Passive Abilities
+Immune to most attacks.
+Extremely difficult to eliminate.
+Day Ability
+Pretend to be innocent.
+Goal
+
+Be the last player alive.
+
+Juggernaut
+
+Faction: Neutral Evil
+Role Type: Killing
+
+Night Ability
+Attack one player each Night.
+Passive Abilities
+Gains stronger abilities after each kill.
+
+Examples:
+
+Stronger attacks.
+Better defenses.
+Goal
+
+Eliminate everyone else.
+Coven Roles (Expansion)
+
+The Coven is a powerful evil faction that works together to eliminate the Town, Mafia, and other opposing factions.
+
+Coven members know each other and coordinate their actions during the Night.
+Potion Master
+Coven Leader
+
+Faction: Coven
+Role Type: Leadership / Information Control
+
+Night Ability
+
+Each Night, choose one living player to Redact.
+
+A Redacted player's role information becomes hidden.
+
+Effects of Redaction:
+
+Investigator
+
+If the Investigator investigates a Redacted player, they receive:
+
+Role: REDACTED
+
+The Investigator knows the information was blocked but does not learn the player's real role.
+
+Sheriff
+
+If the Sheriff investigates a Redacted player, they receive:
+
+Alignment: REDACTED
+
+The Sheriff cannot see if the player is Good, Bad, or Neutral.
+
+Other Information Roles
+
+Any ability that would reveal the player's identity or faction receives a Redacted result.
+
+Faction: Coven
+Role Type: Support
+
+Night Ability
+
+Each Night, use one random potion on chosen player.
+
+The Potion Master has three potions:
+
+Heal Potion
+Protects a player from being eliminated that Night.
+Attack Potion
+Attacks and eliminates one player.
+Reveal Potion
+Learns a player's exact role.
+Day Ability
+Share or hide information to help the Coven.
+Passive Abilities
+Each potion has limited uses.
+Goal
+
+Use potions strategically to help the Coven win.
+
+Necromancer
+
+Faction: Coven
+Role Type: Role Copy / Support
+
+Night Ability
+Choose a dead player's role.
+Use that role's Night ability.
+
+Examples:
+
+Use a dead Doctor's heal.
+Use a dead Vigilante's shot.
+Rules
+The dead player does not return.
+The Necromancer only copies the ability.
+Day Ability
+Pretend to be another role.
+Passive Abilities
+Can use dead players as resources.
+Goal
+
+Use fallen players to help the Coven.
+
+Poisoner
+
+Faction: Coven
+Role Type: Killing
+
+Night Ability
+Choose one player to poison.
+Poison Rules
+The poison does not kill immediately.
+The poisoned player dies later unless saved by a healing ability.
+Day Ability
+Pretend to be innocent.
+Passive Abilities
+Poison can bypass some defenses.
+Goal
+
+Secretly eliminate enemies.
+
+Medusa
+
+Faction: Coven
+Role Type: Killing / Deception
+
+Night Ability
+Choose to use Stone Gaze.
+
+If another player visits the Medusa:
+
+The visitor is turned to stone.
+The visitor is eliminated.
+Additional Ability
+Can hide the roles of players eliminated by Stone Gaze.
+Day Ability
+Pretend to be a harmless role.
+Passive Abilities
+Punishes players who investigate or visit.
+Goal
+
+Eliminate enemies of the Coven.
+
+Coven Member
+
+Faction: Coven
+Role Type: Basic Coven
+
+Night Ability
+Assists the Coven's plans.
+Performs actions assigned by the Coven.
+Day Ability
+Pretend to be a Town member.
+Vote and discuss to mislead others.
+Passive Abilities
+Knows other Coven members.
+Goal
+
+Help the Coven eliminate all opposing factions.
+==================================================
+
+# Murder at Town Square
+
+# Role Selection Manual
+
+## Creating a Balanced Game
+
+A balanced game should give every faction a realistic chance to win.
+
+When choosing roles, the Moderator should consider:
+
+* Number of players
+* Number of killing roles
+* Amount of information roles
+* Amount of protection roles
+* Number of evil players
+* Number of neutral players
+
+A game should never have:
+
+* Too many killing roles
+* Too many investigation roles
+* Too many protection roles
+* Too many neutral roles with separate win conditions
+
+---
+
+# Recommended Faction Balance
+
+For most games:
+
+## Town
+
+About **60% of players**
+
+Town should have:
+
+* Information roles
+* Protective roles
+* A few special abilities
+* Citizens to create uncertainty
+
+## Mafia / Coven
+
+About **25% of players**
+
+Evil factions should have:
+
+* A killing ability
+* Information control
+* Support abilities
+
+## Neutral Roles
+
+About **15% of players**
+
+Neutral roles should add chaos without overwhelming the game.
+
+---
+
+# Player Count Role Guides
+
+## 5 Players
+
+### Factions:
+
+* 3 Town
+* 1 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Doctor
+* Citizen
+
+Mafia:
+
+* Mafioso
+
+Neutral:
+
+* Survivor
+
+---
+
+# 6 Players
+
+### Factions:
+
+* 4 Town
+* 1 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Investigator
+* Doctor
+* Sheriff
+* Citizen
+
+Mafia:
+
+* Mafioso
+
+Neutral:
+
+* Jester
+
+---
+
+# 7 Players
+
+### Factions:
+
+* 4 Town
+* 2 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Doctor
+* Investigator
+* Citizen
+
+Mafia:
+
+* Godfather
+* Mafioso
+
+Neutral:
+
+* Jester
+
+---
+
+# 8 Players
+
+### Factions:
+
+* 5 Town
+* 2 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Investigator
+* Doctor
+* Bodyguard
+* Citizen
+
+Mafia:
+
+* Godfather
+* Consigliere
+
+Neutral:
+
+* Serial Killer
+
+---
+
+# 9 Players
+
+### Factions:
+
+* 5 Town
+* 3 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Investigator
+* Doctor
+* Vigilante
+* Citizen
+
+Mafia:
+
+* Godfather
+* Mafioso
+* Blackmailer
+
+Neutral:
+
+* Survivor
+
+---
+
+# 10 Players
+
+### Factions:
+
+* 6 Town
+* 3 Mafia
+* 1 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Investigator
+* Doctor
+* Bodyguard
+* Vigilante
+* Citizen
+
+Mafia:
+
+* Godfather
+* Consigliere
+* Mafioso
+
+Neutral:
+
+* Jester
+
+---
+
+# 12 Players
+
+### Factions:
+
+* 7 Town
+* 3 Mafia
+* 1 Neutral
+* 1 Wild Card
+
+### Example:
+
+Town:
+
+* Sheriff
+* Investigator
+* Doctor
+* Bodyguard
+* Veteran
+* Vigilante
+* Citizen
+
+Mafia:
+
+* Godfather
+* Consigliere
+* Blackmailer
+
+Neutral:
+
+* Serial Killer
+
+Wild Card:
+
+* Witch / Executioner / Survivor
+
+---
+
+# 15 Players
+
+### Factions:
+
+* 9 Town
+* 4 Mafia/Coven
+* 2 Neutral
+
+### Example:
+
+Town:
+
+* 4 Information Roles
+* 3 Support Roles
+* 2 Citizens
+
+Mafia:
+
+* Godfather
+* Mafioso
+* Consigliere
+* Janitor
+
+Neutral:
+
+* Serial Killer
+* Jester
+
+---
+
+# 20 Players
+
+### Factions:
+
+* 12 Town
+* 5 Mafia/Coven
+* 3 Neutral
+
+### Example:
+
+Town:
+
+* Sheriff
+* Investigator
+* Doctor
+* Bodyguard
+* Veteran
+* Vigilante
+* Mayor
+* Medium
+* Tracker
+* Lookout
+* 2 Citizens
+
+Mafia:
+
+* Godfather
+* Mafioso
+* Blackmailer
+* Consigliere
+* Janitor
+
+Neutral:
+
+* Serial Killer
+* Survivor
+* Executioner
+
+---
+
+# Large Game Rules
+
+## 25+ Players
+
+For very large games:
+
+### Town:
+
+50-60%
+
+### Evil Factions:
+
+25-30%
+
+### Neutral:
+
+10-20%
+
+Add:
+
+* More Citizens
+* More support roles
+* Additional Mafia/Coven members
+
+Avoid adding too many killing roles.
+
+---
+
+# Choosing Roles
+
+## Information Roles
+
+Recommended:
+
+* 1 Investigator
+* 1 Sheriff
+* 1 Tracker/Lookout
+
+Avoid:
+
+* More than 3-4 information roles in small games.
+
+Too much information makes evil factions unable to hide.
+
+---
+
+## Protection Roles
+
+Recommended:
+
+* 1 Doctor
+* 1 Bodyguard or Veteran
+
+Avoid:
+
+* Multiple Doctors in small games.
+
+Too much protection makes killing roles useless.
+
+---
+
+## Killing Roles
+
+Recommended:
+
+Small games:
+
+* Mafia only
+
+Medium games:
+
+* Mafia + 1 Neutral Killer
+
+Large games:
+
+* Mafia + Coven + Neutral Killer
+
+Avoid:
+
+* More than 3 independent killing roles.
+
+---
+
+# Adding Coven Instead of Mafia
+
+If using Coven:
+
+Replace Mafia with Coven at a similar size.
+
+Example:
+
+10 Players:
+
+* 6 Town
+* 3 Coven
+* 1 Neutral
+
+Recommended Coven:
+
+* Coven Leader
+* Potion Master
+* Coven Support Role
+
+---
+
+# Moderator Balance Check
+
+Before starting, ask:
+
+1. Can Town discover enemies?
+2. Can Evil factions hide?
+3. Can Neutral roles survive?
+4. Does every faction have a possible path to victory?
+5. Are there enough normal players to create discussion?
+
+If yes, the game is ready.
+
+---
+
+# Recommended Rule
+
+The Moderator may change roles before the game begins if a faction has a major advantage or disadvantage.
+
+
+        </pre>
+
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Murder at Town Square</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <section id="setupScreen" class="panel">
+      <h1>🕯️ Murder at Town Square</h1>
+      <p class="subtitle">A pass-and-play social deduction game</p>
+
+      <div id="playerListSetup">
+        <h3>Players</h3>
+        <div id="playerTags" class="player-tags"></div>
+        <div class="add-player-row">
+          <input type="text" id="newPlayerName" placeholder="Enter player name" maxlength="20">
+          <button id="addPlayerBtn">Add Player</button>
+        </div>
+        <p id="playerCount" class="info-text">0 players added (minimum 5)</p>
+      </div>
+
+      <div class="setup-row">
+        <button id="balanceButton">Balance Role List</button>
+        <button id="clearPlayersBtn" class="secondary">Clear All Players</button>
+      </div>
+
+      <div id="roleEditor" class="hidden"></div>
+      <p id="roleAssignmentNote" class="hidden info-text">The game randomly assigns the selected roles to players. The setup screen does not show who gets which role.</p>
+
+      <button id="startButton" class="primary">Start Game</button>
+      <button id="setupTutorialButton" class="secondary">How to Play</button>
+      <p id="setupMessage" class="message"></p>
+
+      <details>
+        <summary>Role Selection Manual</summary>
+        <div id="manualGuide" class="manual">
+          <h2>Recommended Balance</h2>
+          <p>Use approximately 60% Town, 25% Mafia, and 15% Neutral roles.</p>
+          <ul>
+            <li><b>5–6 players:</b> 3–4 Town, 1 Mafia, 1 Neutral.</li>
+            <li><b>7–10 players:</b> Town majority, 2–3 Mafia, and one Neutral role.</li>
+            <li><b>11–15 players:</b> Add one extra Mafia or Coven role and one extra Town support role.</li>
+            <li><b>16+ players:</b> Add Citizens first. Avoid adding too many killing roles.</li>
+          </ul>
+          <h2>Role Advice</h2>
+          <ul>
+            <li>Use one Doctor and one information role in small games.</li>
+            <li>Use no more than one independent killer until there are at least 10 players.</li>
+            <li>Godfather appears Good to the Sheriff.</li>
+            <li>Dead players cannot vote, act, or receive new actions.</li>
+            <li>Jester wins immediately when executed.</li>
+            <li>Survivor wins if alive when another faction wins.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <section id="gameScreen" class="hidden">
+      <header class="game-header">
+        <div>
+          <h1>🕯️ Murder at Town Square</h1>
+          <p id="phaseLabel"></p>
+        </div>
+        <div class="header-actions">
+          <button id="tutorialButton" class="secondary">Tutorial</button>
+          <button id="rulesButton" class="secondary">Rules</button>
+        </div>
+      </header>
+
+      <div id="announcement" class="announcement"></div>
+      <div id="gameArea" class="panel"></div>
+      <aside id="playerList" class="panel"></aside>
+    </section>
+
+    <div id="passOverlay" class="overlay hidden">
+      <div class="pass-card">
+        <h2 id="passTitle">Pass the device</h2>
+        <p id="passText">Only the current player should look at the screen.</p>
+        <button id="continueButton" class="primary">I am ready</button>
+      </div>
+    </div>
+
+    <div id="tutorialModal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="tutorialTitle">
+      <div class="pass-card rules-box tutorial-box">
+        <button id="closeTutorial" class="close" aria-label="Close tutorial">×</button>
+        <h2 id="tutorialTitle">📱 Quick Tutorial</h2>
+        <p class="tutorial-intro">Murder at Town Square is a pass-and-play social deduction game. The phone guides everyone through private turns and public discussions.</p>
+
+        <section class="tutorial-step">
+          <h3>1. Set up the game</h3>
+          <p>Add at least five players, build the game role list (or use Balance Role List), then select Start Game. The game randomly assigns the roles, which players receive one at a time.</p>
+        </section>
+
+        <section class="tutorial-step">
+          <h3>2. When you get the phone</h3>
+          <ul>
+            <li>Check that you are the player named on the handoff screen.</li>
+            <li>Move somewhere private or shield the screen so nobody else can see.</li>
+            <li>Tap <b>I am ready</b> only when you are alone with the screen.</li>
+            <li>Read your role and instructions, make your choice, and submit it.</li>
+            <li>When asked, hand the phone to the next named player without showing them your secret information. After everyone has chosen, the game resolves the Night and passes the phone around again for private dawn reports.</li>
+          </ul>
+        </section>
+
+        <section class="tutorial-step">
+          <h3>3. Night and Day</h3>
+          <p><b>At Night</b>, living players take private turns. Follow the on-screen ability instructions; if you have no action or do not want to use it, use the available Continue option.</p>
+          <p><b>During the Day</b>, share clues, discuss who seems suspicious, and vote when prompted. The player with the most votes may be eliminated, and their role is revealed before the next Night.</p>
+        </section>
+
+        <section class="tutorial-step">
+          <h3>4. Winning and good phone etiquette</h3>
+          <p>Each role has its own goal—check your role card or Rules. Keep your role and private results secret unless you choose to share them. Dead players no longer take turns, but may still follow along.</p>
+        </section>
+
+        <button id="closeTutorialButton" class="primary">Got it</button>
+      </div>
+    </div>
+
+    <div id="rulesModal" class="overlay hidden">
+      <div class="pass-card rules-box">
+        <button id="closeRules" class="close">×</button>
+        <h2>How to Play</h2>
+        <p>At Night, living players privately perform their role abilities. During the Day, everyone discusses and chooses publicly. Dead players are revealed and can no longer act.</p>
+        <p>The Town wins when all Mafia and independent killers are dead. Mafia wins when Mafia members equal or outnumber all other living players. A Neutral role may have a separate victory condition.</p>
+        <div id="roleReference"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+  <script src="game-patches.js" defer></script>
+  <script src="disable-rules.js" defer></script>
+  <script src="day-fix.js" defer></script>
+  <script src="game-over-effects.js" defer></script>
+  <script src="mystery-day-patch.js" defer></script>
+  <script src="night-resolution.js" defer></script>
+  <script src="night-dawn-pass.js" defer></script>
+</body>
+</html>
